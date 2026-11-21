@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://planet.emergenz.art/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/en/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/essays/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/essays/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/essays/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/en/essays/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/essays/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/essays/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/ueber/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/ueber/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/about/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/en/about/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/ueber/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/about/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/kippt-hier-etwas/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/kippt-hier-etwas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/is-something-tipping/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/en/is-something-tipping/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/kippt-hier-etwas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/is-something-tipping/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/ki/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/ki/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/ai/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/en/ai/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/ki/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/ai/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/politik/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/politik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/politics/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/en/politics/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/politik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/politics/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/hysterese/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/hysterese/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/hysteresis/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/en/hysteresis/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/hysterese/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/hysteresis/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/amoc/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/amoc/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/amoc/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/en/amoc/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/amoc/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/amoc/"/>
+  </url>
+</urlset>

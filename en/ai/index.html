@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The threshold no one sees — planet</title>
+  <meta name="description" content="An essay on artificial intelligence, emergence and the question of whether there is a tipping point.">
+  <link rel="canonical" href="https://planet.emergenz.art/en/ai/">
+  <link rel="alternate" hreflang="de" href="https://planet.emergenz.art/ki/">
+  <link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/ai/">
+  <link rel="alternate" hreflang="x-default" href="https://planet.emergenz.art/ki/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="planet.emergenz.art">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:title" content="The threshold no one sees">
+  <meta property="og:description" content="An essay on artificial intelligence, emergence and the question of whether there is a tipping point.">
+  <meta property="og:url" content="https://planet.emergenz.art/en/ai/">
+  <meta property="og:image" content="https://planet.emergenz.art/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#f6f3ed" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#15130f" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="planet (en)" href="/en/feed.xml">
+  <link rel="preload" href="/fonts/literata-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/style.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "The threshold no one sees", "description": "An essay on artificial intelligence, emergence and the question of whether there is a tipping point.", "datePublished": "2026-11-05", "inLanguage": "en", "url": "https://planet.emergenz.art/en/ai/", "publisher": {"@type": "Organization", "name": "emergenz.art", "url": "https://emergenz.art"}}</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/en/" aria-label="planet – Essays on where systems tip">planet<span class="dot">.</span></a>
+      <nav class="site-nav" aria-label="Navigation"><a href="/en/essays/">Essays</a><a href="/en/about/">About</a><a class="lang" href="/ki/" hreflang="de" lang="de">Deutsch</a><a href="https://emergenz.art/" class="ext">emergenz.art ↗</a></nav>
+    </div>
+  </header>
+  <main id="main">
+    <div class="article-art" aria-hidden="true"><canvas id="bg-canvas" class="motif"></canvas></div>
+    <article class="article">
+      <header class="article-head">
+        <a class="kicker" href="/en/essays/#technik">Technology</a>
+        <h1>The threshold no one sees</h1>
+        <p class="dek">An essay on artificial intelligence, emergence and the question of whether there is a tipping point.</p>
+        <p class="meta"><span><time datetime="2026-11-05">5 November 2026</time></span><span>6 min read</span></p>
+        <p class="meta translated">Translated from the <a href="/ki/" hreflang="de" lang="de">German original</a>.</p>
+      </header>
+      <div class="prose">
+<section>
+  <h2><span class="num">I</span>What nobody programmed</h2>
+  <p>A large language model is trained on a single task: predicting the next word of a text. Billions of times, on billions of sentences. An error is measured, the weights in the network are shifted slightly, and the whole thing starts again. That is the complete procedure.</p>
+  <p>Nobody taught these models to translate, interpret poems, write programs or find a flaw in an argument. These abilities emerged from that one simple task, just as the shape of a flock of birds emerges from three rules. They are, in the precise sense of the word, emergent.</p>
+  <p>This is not a claim about consciousness, about understanding or about a ghost in the machine. It is an observation about structure: out of simple rules and a very large number of repetitions arises something that is not written in the rules.</p>
+</section>
+
+<section>
+  <h2><span class="num">II</span>Jumps on the inside</h2>
+  <p>In recent years, research has begun not just to marvel at this process from the outside but to observe it inside the networks. Three findings stand out.</p>
+  <p><strong>Grokking.</strong> In 2022 a group at OpenAI trained small networks on simple arithmetic tasks. At first the networks memorised the examples: perfect on known problems, helpless on new ones. If training continued, long after nothing seemed to be happening any more, there came a moment when the network suddenly solved the new problems as well. It had found the rule. The researchers called this <em>grokking</em>, after a word from a science-fiction novel for deep, intuitive understanding.</p>
+  <p><strong>Induction heads.</strong> In the same year, researchers at Anthropic described how language models acquire the ability to learn from examples in the text. It does not appear gradually during training but within a short stretch, together with a particular circuit in the network that forms by itself. At this point the learning curve shows a distinct bend. The researchers spoke of a <em><a class="glossar" href="https://emergenz.art/glossar/#phasenuebergang" hreflang="de" title="In the glossary on emergenz.art (German)">phase transition</a></em>.</p>
+  <p><strong>A board nobody showed it.</strong> In 2023 a group from Harvard trained a model exclusively on move sequences from the board game Othello, as bare lists of square names. The model never saw a board. Nevertheless, a representation of the board was found inside it, one that could be read out and even deliberately altered – whereupon the model suggested different moves. From strings of characters, a picture of the world had emerged that nobody had put there.</p>
+</section>
+
+<section>
+  <h2><span class="num">III</span>The dispute over the jumps</h2>
+  <p>In 2022 a group led by Jason Wei published a widely noted paper on the <em>emergent abilities</em> of large language models: abilities that are practically absent in small models and suddenly appear beyond a certain size. A year later Rylan Schaeffer and colleagues objected. Many of these jumps, they argued, are produced by the way they are measured. If you only count whether an answer is entirely correct, you see a jump. If you measure how close it comes to the correct one, you often see a smooth curve.</p>
+  <p>The dispute is instructive because it reveals something about emergence itself. Whether a transition appears sudden also depends on how you look. But it does not dissolve everything. Grokking and induction heads show up as a genuine upheaval inside the network even in smooth measures. There are jumps that lie in the eye of the beholder. And there are jumps that lie in the network.</p>
+  <p>The band at the top of this page shows a picture of the second kind. Hundreds of small oscillators swing, each at its own pace, and each faintly senses the common rhythm of all the others. This coupling grows stronger slowly and evenly. For a long time little happens. Then, beyond a threshold, the oscillators find one another, and out of the confusion a shared order arises within a short time. It is not a model of a language model. It only shows how a steadily rising dial can produce a sudden transition.</p>
+</section>
+
+<blockquote class="statement">
+  <p>The question is not whether something emerges from these systems that nobody put there. That happened long ago. The question is what emerges next.</p>
+</blockquote>
+
+<section>
+  <h2><span class="num">IV</span>Is AGI a tipping point?</h2>
+  <p>The public debate revolves around an abbreviation: AGI, artificial general intelligence, a machine that can do everything a human can do intellectually. It is usually imagined as an event, a day on which it arrives. Some think of it as a <a class="glossar" href="https://emergenz.art/glossar/#kipppunkt" hreflang="de" title="In the glossary on emergenz.art (German)">tipping point</a> in the strict sense. As early as 1965 the mathematician I. J. Good wrote that a machine cleverer than its designers could build even cleverer machines, and so on. The first such machine would be the last invention humanity would ever need to make. That is the logic of a self-reinforcing feedback loop, the logic of an avalanche.</p>
+  <p>The page on <a href="https://emergenz.art/planetare-kognition/" hreflang="de">planetary cognition</a> on emergenz.art contradicts this picture. It says: there is no deadline, but a gradual thickening of connections and <a class="glossar" href="https://emergenz.art/glossar/#rueckkopplung" hreflang="de" title="In the glossary on emergenz.art (German)">feedback</a>. No neuron ever noticed that it had become part of a mind.</p>
+  <p>What is remarkable is that both pictures describe emergence. They do not differ in whether something new arises, but in the dynamics: jump or thickening, avalanche or growth. And the observations so far fit both. Over wide ranges, the models' abilities grow steadily with their size. Inside, there are upheavals nonetheless. To be honest, nobody knows which picture will prove right in the end – or whether it is a mixture of both: a long thickening in which things tip here and there.</p>
+</section>
+
+<section>
+  <h2><span class="num">V</span>The way back</h2>
+  <p>Anyone who talks about tipping points must also talk about <a href="/en/hysteresis/">hysteresis</a>. For here, too, there are paths that cannot be retraced.</p>
+  <p>A model whose weights have been published cannot be recalled. It has been copied, modified, passed on. An ability that is out in the world does not disappear because someone regrets it. And institutions, professions and habits that have reorganised themselves around a technology do not return to their old state just because the technology is switched off again. This is not a warning of doom. It is the sober observation that the development of artificial intelligence, too, is a system with memory.</p>
+</section>
+
+<section>
+  <h2><span class="num">VI</span>Responsibility</h2>
+  <p>This is where the real challenge lies. The systems in question are built, but not designed. One determines the architecture, the data, the procedure. What comes out of it one learns only through observation. The research that examines the inside of the models therefore works like a natural science: with experiments, hypotheses, surprises.</p>
+  <p>Dealing with such systems calls for the lessons found in the other essays here. Where consequences cannot be undone, caution is cheap as long as one is still before the threshold. Hans Jonas called this the heuristics of fear; the essay on <a href="/en/politics/">politics</a> describes it. And whoever wants to steer an emergent system cannot fix its behaviour, only its rules: testing before release, transparency about what was tested and what was not, limits on where such systems may act without human oversight. In 2024 the European Union made a first attempt to set such rules with its AI Act.</p>
+  <p>The responsibility does not lie with the machines. It lies with those who set the conditions under which something emerges.</p>
+</section>
+
+<section class="coda">
+  <h2><span class="num">VII</span>Coda: A text about itself</h2>
+  <p>This essay was written with the help of a language model – a system of exactly the kind it is about. The model can report on the research described here. It cannot look inside itself and say what is happening in it. Its statements about itself would merely be another result of the process they are meant to explain.</p>
+  <p>Perhaps this is the most precise description of the situation. We have built systems that do not see through themselves, and we do not fully see through them either. That is no reason for panic and none for enthusiasm. It is a reason to look very closely – at what emerges, and at the rules under which it emerges.</p>
+</section>
+
+<section class="quellen">
+  <h2>Sources and further reading</h2>
+  <ul>
+  <li>Good, I. J. (1965): Speculations Concerning the First Ultraintelligent Machine. <em>Advances in Computers</em> 6. — The idea of self-reinforcing intelligence.</li>
+  <li>Power, A. et al. (2022): Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets. <a href="https://arxiv.org/abs/2201.02177" target="_blank" rel="noopener">arXiv:2201.02177</a></li>
+  <li>Olsson, C. et al. (2022): In-context Learning and Induction Heads. <em>Transformer Circuits Thread.</em> — The phase transition during training.</li>
+  <li>Wei, J. et al. (2022): Emergent Abilities of Large Language Models. <em>Transactions on Machine Learning Research.</em></li>
+  <li>Li, K. et al. (2023): Emergent World Representations: Exploring a Sequence Model Trained on a Synthetic Task. <em>ICLR 2023.</em> — The Othello board inside the model.</li>
+  <li>Schaeffer, R., Miranda, B. &amp; Koyejo, S. (2023): Are Emergent Abilities of Large Language Models a Mirage? <em>NeurIPS 2023.</em></li>
+  <li>European Union (2024): Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (AI Act).</li>
+  </ul>
+</section>
+
+      </div>
+    </article>
+    <aside class="further wrap" aria-labelledby="further-h">
+      <div class="section-head"><h2 id="further-h">Read on</h2></div>
+      <div class="grid">
+      <article class="card">
+        <a class="kicker" href="/en/essays/#maerkte">Markets</a>
+        <h3><a href="/en/is-something-tipping/">Is something tipping here?</a></h3>
+        <p>Sandpiles, reflexivity, coupled tipping points and hysteresis: what the post-election crash reveals about tipping points – and what it does not.</p>
+        <p class="meta"><span><time datetime="2026-11-08">8 November 2026</time></span><span>7 min read</span></p>
+      </article>
+      <article class="card">
+        <a class="kicker" href="/en/essays/#klima">Climate</a>
+        <h3><a href="/en/hysteresis/">The way back is a different one</a></h3>
+        <p>Why a system that has tipped does not return when the cause disappears – from clear lakes to ice sheets to societies.</p>
+        <p class="meta"><span><time datetime="2026-11-04">4 November 2026</time></span><span>5 min read</span></p>
+      </article>
+      <article class="card">
+        <a class="kicker" href="/en/essays/#politik">Politics</a>
+        <h3><a href="/en/politics/">Two clocks</a></h3>
+        <p>The political clock measures legislative terms, the climate clock centuries. On compromises physics does not recognise, and on responsibility.</p>
+        <p class="meta"><span><time datetime="2026-11-05">5 November 2026</time></span><span>7 min read</span></p>
+      </article>
+      </div>
+    </aside>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p style="margin:0"><span class="brand-small">planet<span class="dot">.</span></span> An offshoot of <a href="https://emergenz.art/">emergenz.art</a></p>
+      <ul>
+        <li><a href="/en/feed.xml">RSS feed</a></li>
+        <li><a href="https://emergenz.art/kontakt/">Contact</a></li>
+        <li><a href="https://emergenz.art/impressum/">Legal notice</a></li>
+      </ul>
+    </div>
+  </footer>
+<script src="/motiv.js"></script>
+<script src="/motive/ki.js"></script>
+<script>window.goatcounter = { path: function (p) { return location.host + p } }</script>
+<script data-goatcounter="https://emergenz.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>

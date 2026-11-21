@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <style>
+    .p { fill: none; stroke: #1e1b17; }
+    @media (prefers-color-scheme: dark) { .p { stroke: #ece4d4; } }
+  </style>
+  <circle class="p" cx="15" cy="17" r="10.5" stroke-width="2.6"/>
+  <circle cx="24.5" cy="7.5" r="4.2" fill="#b0603a"/>
+</svg>

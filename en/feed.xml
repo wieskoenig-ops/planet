@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>planet — Essays on where systems tip</title>
+    <link>https://planet.emergenz.art/en/</link>
+    <atom:link href="https://planet.emergenz.art/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>planet – essays on tipping points, hysteresis and emergence in climate, politics, technology and markets. An offshoot of emergenz.art.</description>
+    <language>en</language>
+    <item>
+      <title>Is something tipping here?</title>
+      <link>https://planet.emergenz.art/en/is-something-tipping/</link>
+      <guid isPermaLink="true">https://planet.emergenz.art/en/is-something-tipping/</guid>
+      <pubDate>Sun, 08 Nov 2026 09:00:00 +0000</pubDate>
+      <category>Markets</category>
+      <description>The slump in AI stocks after the 2026 US midterms, tested against the hallmarks of a tipping point. Sandpiles, reflexivity, coupled tipping points and hysteresis: what the post-election crash reveals about tipping points – and what it does not.</description>
+    </item>
+    <item>
+      <title>The threshold no one sees</title>
+      <link>https://planet.emergenz.art/en/ai/</link>
+      <guid isPermaLink="true">https://planet.emergenz.art/en/ai/</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0000</pubDate>
+      <category>Technology</category>
+      <description>An essay on artificial intelligence, emergence and the question of whether there is a tipping point. On abilities nobody programmed, jumps inside neural networks and the question of whether AGI is a tipping point.</description>
+    </item>
+    <item>
+      <title>Two clocks</title>
+      <link>https://planet.emergenz.art/en/politics/</link>
+      <guid isPermaLink="true">https://planet.emergenz.art/en/politics/</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0000</pubDate>
+      <category>Politics</category>
+      <description>An essay on climate policy, tipping points and responsibility for processes that outlast a legislative term. The political clock measures legislative terms, the climate clock centuries. On compromises physics does not recognise, and on responsibility.</description>
+    </item>
+    <item>
+      <title>The way back is a different one</title>
+      <link>https://planet.emergenz.art/en/hysteresis/</link>
+      <guid isPermaLink="true">https://planet.emergenz.art/en/hysteresis/</guid>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0000</pubDate>
+      <category>Climate</category>
+      <description>An essay on hysteresis, attractors and the memory of complex systems. Why a system that has tipped does not return when the cause disappears – from clear lakes to ice sheets to societies.</description>
+    </item>
+    <item>
+      <title>The conveyor belt dies quietly</title>
+      <link>https://planet.emergenz.art/en/amoc/</link>
+      <guid isPermaLink="true">https://planet.emergenz.art/en/amoc/</guid>
+      <pubDate>Tue, 16 Jun 2026 09:00:00 +0000</pubDate>
+      <category>Climate</category>
+      <description>An essay on the AMOC, the physics of irreversibility and the failure of linear thinking. The Atlantic overturning circulation is weakening. Early warning signs, hysteresis, and a policy that dismantles its own instruments.</description>
+    </item>
+  </channel>
+</rss>
