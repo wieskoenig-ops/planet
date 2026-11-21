@@ -174,3 +174,10 @@ img, svg, canvas { display: block; max-width: 100%; }
 .brand-small { font-weight: 700; color: var(--ink); letter-spacing: -0.02em; }
 .brand-small .dot, .brand .dot { color: var(--accent); }
 .article-head .translated { margin-top: 0.4rem; }
+
+/* Wortmarke: Punkt als Kreis, etwas größer als ein Satzzeichen */
+.brand .dot, .brand-small .dot {
+  display: inline-block; width: 0.24em; height: 0.24em; margin-left: 0.07em;
+  border-radius: 50%; background: var(--accent);
+  color: transparent; overflow: hidden; line-height: 0; vertical-align: baseline;
+}
