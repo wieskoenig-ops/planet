@@ -103,6 +103,18 @@ ESSAYS = [
                'teaser': 'The political clock measures legislative terms, the climate clock centuries. On compromises physics does not recognise, and on responsibility.'},
     },
     {
+        'id': 'planetare-kognition', 'rubrik': 'technik', 'datum': '2026-11-04', 'motiv': 'planetare-kognition',
+        'related': ['ki', 'kippt-hier-etwas', 'politik'],
+        'de': {'slug': 'planetare-kognition', 'titel': 'Kein Moment',
+               'dek': 'Eine These über planetare Kognition, die Technosphäre und die falsche Frage der AGI-Debatte.',
+               'desc': 'Kein Neuron hat je bemerkt, dass es Teil eines Geistes wurde. Über planetare Kognition, die Technosphäre und die falsche Frage der AGI-Debatte.',
+               'teaser': 'Kein Neuron hat je bemerkt, dass es Teil eines Geistes wurde. Warum die Frage nach dem Tag der AGI die falsche ist, und welche Zukunft die Technosphäre vorwegnimmt.'},
+        'en': {'slug': 'planetary-cognition', 'titel': 'No moment',
+               'dek': 'A thesis on planetary cognition, the technosphere and the wrong question of the AGI debate.',
+               'desc': 'No neuron ever noticed that it had become part of a mind. On planetary cognition, the technosphere and the wrong question of the AGI debate.',
+               'teaser': 'No neuron ever noticed that it had become part of a mind. Why asking for the day of AGI is the wrong question, and which future the technosphere anticipates.'},
+    },
+    {
         'id': 'hysterese', 'rubrik': 'klima', 'datum': '2026-11-04', 'motiv': 'hysterese',
         'related': ['amoc', 'politik', 'kippt-hier-etwas'],
         'de': {'slug': 'hysterese', 'titel': 'Der Weg zurück ist ein anderer',
