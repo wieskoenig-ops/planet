@@ -31,6 +31,46 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/about/"/>
   </url>
   <url>
+    <loc>https://planet.emergenz.art/overshoot/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/overshoot/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/overshoot/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/en/overshoot/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/overshoot/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/overshoot/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/elektrifizierung/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/elektrifizierung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/electrification/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/en/electrification/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/elektrifizierung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/electrification/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/wasser/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/wasser/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/water/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/en/water/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/wasser/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/water/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/kreislauf/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/kreislauf/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/recycling/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/en/recycling/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/kreislauf/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/recycling/"/>
+  </url>
+  <url>
     <loc>https://planet.emergenz.art/kippt-hier-etwas/</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/kippt-hier-etwas/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/is-something-tipping/"/>

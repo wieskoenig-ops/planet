@@ -25,6 +25,54 @@ RUBRIKEN = {
 # Neueste zuerst nicht nötig – wird nach Datum sortiert.
 ESSAYS = [
     {
+        'id': 'overshoot', 'rubrik': 'klima', 'datum': '2026-11-22', 'motiv': 'overshoot',
+        'related': ['hysterese', 'elektrifizierung', 'amoc'],
+        'de': {'slug': 'overshoot', 'titel': 'Überschreiten ist kein Ort',
+               'dek': 'Der letzte Entwurf der COP31 hätte eingeräumt, dass 1,5 Grad fallen, und auf den Rückweg gesetzt. Beschlossen wurde nichts. Was die Hysterese dazu sagt.',
+               'desc': 'Der letzte Entwurf der COP31 hätte eingeräumt, dass 1,5 Grad fallen, und auf den Rückweg per CO₂-Entnahme gesetzt. Beschlossen wurde nichts. Ein Essay über Overshoot, Hysterese und die Frage, was zurückkommt.',
+               'teaser': 'Die Temperatur kann zurückkommen, das Klima, das sie hervorgebracht hat, nicht. Über Overshoot, Hysterese und die Wette auf die CO₂-Entnahme.'},
+        'en': {'slug': 'overshoot', 'titel': 'Overshoot is not a place',
+               'dek': 'The final COP31 draft would have conceded that 1.5 degrees will be breached, and bet on the way back. Nothing was adopted. What hysteresis has to say about it.',
+               'desc': 'The final COP31 draft would have conceded that 1.5 degrees will be breached and relied on carbon removal for the way back. Nothing was adopted. An essay on overshoot, hysteresis and the question of what returns.',
+               'teaser': 'The temperature can come back; the climate that produced it cannot. On overshoot, hysteresis and the bet on carbon removal.'},
+    },
+    {
+        'id': 'elektrifizierung', 'rubrik': 'technik', 'datum': '2026-11-22', 'motiv': 'elektrifizierung',
+        'related': ['overshoot', 'kreislauf', 'hysterese'],
+        'de': {'slug': 'elektrifizierung', 'titel': 'Der Engpass liegt in der Leitung',
+               'dek': 'Die COP31 wollte, dass Strom ein gutes Drittel unserer Energie liefert. Der Beschluss ist gescheitert. Netze, Kupfer und Zeit waren ohnehin noch nicht so weit.',
+               'desc': 'Elektrifizierung war das konkreteste Ziel der COP31, und der Beschluss ist gescheitert. Ein Essay über Netze, Kupfer und die Frage, was zwischen Ziel und Steckdose liegt.',
+               'teaser': 'Ein Ziel lässt sich in einer Nacht beschließen, ein Transformator braucht bis zu vier Jahre. Über Netze, Kupfer und das Tempo zweier Systeme.'},
+        'en': {'slug': 'electrification', 'titel': 'The bottleneck is in the wires',
+               'dek': 'COP31 wanted electricity to supply a good third of our energy. The decision failed. Grids, copper and time were not ready anyway.',
+               'desc': 'Electrification was the most concrete goal of COP31, and the decision failed. An essay on grids, copper and what lies between a target and the socket.',
+               'teaser': 'A target can be agreed in one night; a transformer takes up to four years. On grids, copper and two systems running at different speeds.'},
+    },
+    {
+        'id': 'wasser', 'rubrik': 'klima', 'datum': '2026-11-22', 'motiv': 'wasser',
+        'related': ['overshoot', 'hysterese', 'amoc'],
+        'de': {'slug': 'wasser', 'titel': 'Das Sparkonto',
+               'dek': 'Gletscher, Grundwasser und das Wort, das gerade seine Bedeutung wechselt.',
+               'desc': 'Von der Wasserkrise zum Wasserbankrott: Was Gletscher und Grundwasserleiter über Kipppunkte und Hysterese erzählen.',
+               'teaser': 'Von der Wasserkrise zum Wasserbankrott: was Gletscher und Grundwasserleiter über Kipppunkte und Hysterese erzählen.'},
+        'en': {'slug': 'water', 'titel': 'The savings account',
+               'dek': 'Glaciers, groundwater and a word that is changing its meaning.',
+               'desc': 'From water crisis to water bankruptcy: what glaciers and aquifers tell us about tipping points and hysteresis.',
+               'teaser': 'From water crisis to water bankruptcy: what glaciers and aquifers tell us about tipping points and hysteresis.'},
+    },
+    {
+        'id': 'kreislauf', 'rubrik': 'klima', 'datum': '2026-11-22', 'motiv': 'kreislauf',
+        'related': ['wasser', 'elektrifizierung', 'overshoot'],
+        'de': {'slug': 'kreislauf', 'titel': 'Kaskade, nicht Kreislauf',
+               'dek': 'Fünf Recyclingquoten zwischen 6 und 69 Prozent, und die Frage hinter den 15 Prozent von Antalya.',
+               'desc': 'Die COP31-Präsidentschaft wollte Kreislaufwirtschaft, der Abschlusstext ist gescheitert. Am Beispiel Plastik: Es gibt viele Zahlen, aber keine, die Qualität misst.',
+               'teaser': 'Am Beispiel Plastik: Es gibt viele Recyclingzahlen, aber keine, die Qualität misst. Ein Kreislauf verliert nichts, eine Kaskade bei jeder Stufe.'},
+        'en': {'slug': 'recycling', 'titel': 'A cascade, not a cycle',
+               'dek': 'Five recycling rates between 6 and 69 per cent, and the question behind the 15 per cent of Antalya.',
+               'desc': 'The COP31 presidency wanted a circular economy; the final text failed. Plastic as an example: there are many figures, but none that measures quality.',
+               'teaser': 'Plastic as an example: there are many recycling figures, but none that measures quality. A cycle loses nothing; a cascade loses something at every step.'},
+    },
+    {
         'id': 'kippt-hier-etwas', 'rubrik': 'maerkte', 'datum': '2026-11-08', 'motiv': 'kippt-hier-etwas',
         'related': ['ki', 'hysterese', 'politik'],
         'de': {'slug': 'kippt-hier-etwas', 'titel': 'Kippt hier etwas?',
@@ -285,7 +333,7 @@ def build_essay(e, lang):
       </div>
     </aside>'''
     ld = {
-        '@context': 'https://schema.org', '@type': 'Article', 'headline': L['titel'], 'description': L['dek'],
+        '@context': 'https://schema.org', '@type': 'Article', 'headline': L['titel'], 'description': L.get('desc', L['dek']),
         'datePublished': e['datum'], 'inLanguage': lang, 'url': BASE + essay_url(e, lang),
         'publisher': {'@type': 'Organization', 'name': 'emergenz.art', 'url': EMERGENZ},
     }
@@ -303,7 +351,7 @@ def build_essay(e, lang):
       </div>
     </article>{further}'''
     head = f'\n  <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>'
-    return page(lang, title=L['titel'], desc=L['dek'], path=essay_url(e, lang), alt=alt, body=main,
+    return page(lang, title=L['titel'], desc=L.get('desc', L['dek']), path=essay_url(e, lang), alt=alt, body=main,
                 og_type='article', head_extra=head, scripts=motif_scripts(e))
 
 

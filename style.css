@@ -181,3 +181,13 @@ img, svg, canvas { display: block; max-width: 100%; }
   border-radius: 50%; background: var(--accent);
   color: transparent; overflow: hidden; line-height: 0; vertical-align: baseline;
 }
+
+/* Abbildungen und Tabellen im Text */
+.prose figure { margin: 2rem 0 2.4rem; }
+.prose figure svg { display: block; width: 100%; height: auto; color: var(--ink); font-family: var(--sans); }
+.prose figcaption { margin-top: 0.6rem; font-family: var(--sans); font-size: 0.85rem; line-height: 1.55; color: var(--muted); }
+.prose table.daten { width: 100%; border-collapse: collapse; margin: 0 0 1.6rem; font-family: var(--sans); font-size: 0.85rem; line-height: 1.45; }
+.prose table.daten caption { caption-side: bottom; text-align: left; padding-top: 0.5rem; color: var(--muted); font-size: 0.82rem; }
+.prose table.daten th { text-align: left; font-weight: 650; border-bottom: 1px solid var(--ink-2); padding: 0.35rem 0.6rem 0.35rem 0; }
+.prose table.daten td { border-bottom: 1px solid var(--line); padding: 0.45rem 0.6rem 0.45rem 0; vertical-align: top; }
+.prose table.daten td:first-child { white-space: nowrap; font-variant-numeric: tabular-nums; font-weight: 650; }
