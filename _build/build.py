@@ -143,7 +143,7 @@ T = {
         'tagline': 'Essays darüber, wo Systeme kippen',
         'site_desc': 'planet – Essays über Kipppunkte, Hysterese und Emergenz in Klima, Politik, Technik und Märkten. Ein Ableger von emergenz.art.',
         'nav_essays': 'Essays', 'nav_about': 'Über', 'other_lang': 'English', 'other_code': 'en',
-        'lead': 'Wann kippt ein System – und gibt es danach einen Weg zurück? <strong>planet</strong> sammelt Essays über Kipppunkte in Klima, Politik, Technik und Märkten.',
+        'lead': 'Wann kippt ein System – und gibt es danach einen Weg zurück? <span class="pname">planet<span class="pdot" aria-hidden="true"></span></span> sammelt Essays über Kipppunkte in Klima, Politik, Technik und Märkten.',
         'latest': 'Neueste Ausgabe', 'all_essays': 'Alle Essays', 'by_topic': 'Nach Themen', 'read': 'Weiterlesen →',
         'essays_title': 'Essays', 'essays_intro': 'Alle Texte, nach Themen geordnet. Grundbegriffe erklärt das <a href="https://emergenz.art/glossar/">Glossar auf emergenz.art</a>.',
         'minutes': '{} Min. Lesezeit', 'further': 'Weiterlesen',
@@ -159,7 +159,7 @@ T = {
         'tagline': 'Essays on where systems tip',
         'site_desc': 'planet – essays on tipping points, hysteresis and emergence in climate, politics, technology and markets. An offshoot of emergenz.art.',
         'nav_essays': 'Essays', 'nav_about': 'About', 'other_lang': 'Deutsch', 'other_code': 'de',
-        'lead': 'When does a system tip – and is there a way back afterwards? <strong>planet</strong> collects essays on tipping points in climate, politics, technology and markets.',
+        'lead': 'When does a system tip – and is there a way back afterwards? <span class="pname">planet<span class="pdot" aria-hidden="true"></span></span> collects essays on tipping points in climate, politics, technology and markets.',
         'latest': 'Latest essay', 'all_essays': 'All essays', 'by_topic': 'By topic', 'read': 'Read on →',
         'essays_title': 'Essays', 'essays_intro': 'All texts, ordered by topic. Key terms are explained in the <a href="https://emergenz.art/glossar/" hreflang="de">glossary on emergenz.art</a> (in German).',
         'minutes': '{} min read', 'further': 'Read on',
@@ -174,28 +174,28 @@ T = {
 
 ABOUT = {
     'de': {'slug': 'ueber', 'title': 'Über planet', 'body': '''
-<p><strong>planet</strong> ist der Ort für Essays über Kipppunkte: über Systeme, die lange stabil wirken und dann in einen anderen Zustand springen – und über die Frage, ob es von dort einen Weg zurück gibt.</p>
+<p><span class="pname">planet<span class="pdot" aria-hidden="true"></span></span> ist der Ort für Essays über Kipppunkte: über Systeme, die lange stabil wirken und dann in einen anderen Zustand springen – und über die Frage, ob es von dort einen Weg zurück gibt.</p>
 <p>Die Texte kommen aus vier Feldern: <strong>Klima</strong> (Atlantikströmung, Eisschilde, Hysterese), <strong>Politik</strong> (Verantwortung für Prozesse, die länger dauern als eine Legislaturperiode), <strong>Technik</strong> (Emergenz in künstlicher Intelligenz) und <strong>Märkte</strong> (Rückkopplung, Reflexivität, Kaskaden).</p>
 <h2>Verhältnis zu emergenz.art</h2>
 <p><a href="https://emergenz.art/">emergenz.art</a> ist die ruhige, erklärende Schwesterseite: Was ist Emergenz, wie zeigt sie sich in den Wissenschaften und in der Kunst? Dort stehen auch die Grundlagen, auf die sich die Essays hier stützen – die Seite über <a href="https://emergenz.art/emergenz/kippunkte/">Kipppunkte</a> und das <a href="https://emergenz.art/glossar/">Glossar</a>.</p>
-<p>planet ist der Teil, in dem es um die Gegenwart geht. Die Texte sind datiert; wo sich die Lage ändert, bekommen sie einen Nachtrag mit Stand.</p>
+<p><span class="pname">planet<span class="pdot" aria-hidden="true"></span></span> ist der Teil, in dem es um die Gegenwart geht. Die Texte sind datiert; wo sich die Lage ändert, bekommen sie einen Nachtrag mit Stand.</p>
 <h2>Haltung</h2>
 <p>Die Essays beschreiben Systemdynamik. Sie suchen keine Schuldigen, sie bewerten keine Parteien und sie geben keine Anlageempfehlungen. Zahlen und Studien sind belegt; die Quellen stehen am Ende jedes Textes.</p>
 <p>Die englischen Fassungen sind Übersetzungen der deutschen Originale.</p>
 <h2>Kontakt und Impressum</h2>
-<p>planet wird zusammen mit emergenz.art betrieben. <a href="https://emergenz.art/kontakt/">Kontakt</a> und <a href="https://emergenz.art/impressum/">Impressum mit Datenschutzhinweisen</a> gelten für beide Seiten. Neue Texte gibt es auch als <a href="/feed.xml">RSS-Feed</a>.</p>
+<p><span class="pname">planet<span class="pdot" aria-hidden="true"></span></span> wird zusammen mit emergenz.art betrieben. <a href="https://emergenz.art/kontakt/">Kontakt</a> und <a href="https://emergenz.art/impressum/">Impressum mit Datenschutzhinweisen</a> gelten für beide Seiten. Neue Texte gibt es auch als <a href="/feed.xml">RSS-Feed</a>.</p>
 '''},
     'en': {'slug': 'about', 'title': 'About planet', 'body': '''
-<p><strong>planet</strong> is a home for essays on tipping points: on systems that seem stable for a long time and then jump into a different state – and on the question of whether there is a way back.</p>
+<p><span class="pname">planet<span class="pdot" aria-hidden="true"></span></span> is a home for essays on tipping points: on systems that seem stable for a long time and then jump into a different state – and on the question of whether there is a way back.</p>
 <p>The essays come from four fields: <strong>climate</strong> (the Atlantic circulation, ice sheets, hysteresis), <strong>politics</strong> (responsibility for processes that outlast a legislative term), <strong>technology</strong> (emergence in artificial intelligence) and <strong>markets</strong> (feedback, reflexivity, cascades).</p>
 <h2>Relation to emergenz.art</h2>
 <p><a href="https://emergenz.art/" hreflang="de">emergenz.art</a> is the calm, explanatory sister site (in German): what is emergence, and how does it appear in the sciences and in art? It also holds the foundations these essays build on – the page on <a href="https://emergenz.art/emergenz/kippunkte/" hreflang="de">tipping points</a> and the <a href="https://emergenz.art/glossar/" hreflang="de">glossary</a>.</p>
-<p>planet is the part that deals with the present. The essays are dated; where the situation changes, they receive an update with a date.</p>
+<p><span class="pname">planet<span class="pdot" aria-hidden="true"></span></span> is the part that deals with the present. The essays are dated; where the situation changes, they receive an update with a date.</p>
 <h2>Approach</h2>
 <p>The essays describe system dynamics. They do not look for culprits, they do not judge parties and they give no investment advice. Figures and studies are referenced; the sources are listed at the end of each essay.</p>
 <p>The English versions are translations of the German originals.</p>
 <h2>Contact and legal notice</h2>
-<p>planet is run together with emergenz.art. <a href="https://emergenz.art/kontakt/" hreflang="de">Contact</a> and the <a href="https://emergenz.art/impressum/" hreflang="de">legal notice and privacy information</a> (in German) apply to both sites. New essays are also available as an <a href="/en/feed.xml">RSS feed</a>.</p>
+<p><span class="pname">planet<span class="pdot" aria-hidden="true"></span></span> is run together with emergenz.art. <a href="https://emergenz.art/kontakt/" hreflang="de">Contact</a> and the <a href="https://emergenz.art/impressum/" hreflang="de">legal notice and privacy information</a> (in German) apply to both sites. New essays are also available as an <a href="/en/feed.xml">RSS feed</a>.</p>
 '''},
 }
 
@@ -442,7 +442,7 @@ def build_about(lang):
 def build_404():
     main = '''    <div class="page prose">
       <h1>Seite nicht gefunden</h1>
-      <p>Diese Adresse gibt es auf planet nicht (mehr). Vielleicht hilft die <a href="/essays/">Übersicht aller Essays</a> oder die <a href="/">Startseite</a>.</p>
+      <p>Diese Adresse gibt es auf <span class="pname">planet<span class="pdot" aria-hidden="true"></span></span> nicht (mehr). Vielleicht hilft die <a href="/essays/">Übersicht aller Essays</a> oder die <a href="/">Startseite</a>.</p>
       <p lang="en">This page does not exist. Try the <a href="/en/essays/">list of all essays</a> or the <a href="/en/">English home page</a>.</p>
     </div>'''
     out = page('de', title='Seite nicht gefunden', desc='Seite nicht gefunden', path='/404.html', alt={}, body=main)

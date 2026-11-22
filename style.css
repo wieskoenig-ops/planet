@@ -191,3 +191,7 @@ img, svg, canvas { display: block; max-width: 100%; }
 .prose table.daten th { text-align: left; font-weight: 650; border-bottom: 1px solid var(--ink-2); padding: 0.35rem 0.6rem 0.35rem 0; }
 .prose table.daten td { border-bottom: 1px solid var(--line); padding: 0.45rem 0.6rem 0.45rem 0; vertical-align: top; }
 .prose table.daten td:first-child { white-space: nowrap; font-variant-numeric: tabular-nums; font-weight: 650; }
+
+/* planet mit kupfernem Kreis, wann immer die Seite gemeint ist */
+.pname { white-space: nowrap; }
+.pdot { display: inline-block; width: 0.32em; height: 0.32em; margin-left: 0.1em; margin-right: 0.12em; border-radius: 50%; background: var(--accent); vertical-align: baseline; }
