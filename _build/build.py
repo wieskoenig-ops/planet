@@ -25,6 +25,16 @@ RUBRIKEN = {
 # Neueste zuerst nicht nötig – wird nach Datum sortiert.
 ESSAYS = [
     {
+        'id': 'scheitern', 'rubrik': 'politik', 'datum': '2026-11-27', 'motiv': 'scheitern',
+        'related': ['politik', 'overshoot', 'hysterese'],
+        'de': {'slug': 'scheitern', 'titel': 'Die offene Stelle',
+               'dek': 'Ist das Scheitern von Antalya eine Chance? Was Kopenhagen lehrt, was Koalitionen können und warum sich der Konsens nur im Konsens abschaffen lässt.',
+               'teaser': 'Ein Scheitern hat keine Richtung. Über Kopenhagen und Paris, die Konsensregel, die Koalition von Santa Marta und die Frage, wer die offene Stelle füllt.'},
+        'en': {'slug': 'failure', 'titel': 'The vacancy',
+               'dek': 'Is the failure in Antalya an opportunity? What Copenhagen teaches, what coalitions can do, and why consensus can only be abolished by consensus.',
+               'teaser': 'A failure has no direction. On Copenhagen and Paris, the consensus rule, the Santa Marta coalition and the question of who fills the vacancy.'},
+    },
+    {
         'id': 'overshoot', 'rubrik': 'klima', 'datum': '2026-11-22', 'motiv': 'overshoot',
         'related': ['hysterese', 'elektrifizierung', 'amoc'],
         'de': {'slug': 'overshoot', 'titel': 'Überschreiten ist kein Ort',

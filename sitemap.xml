@@ -31,6 +31,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/about/"/>
   </url>
   <url>
+    <loc>https://planet.emergenz.art/scheitern/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/scheitern/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/failure/"/>
+  </url>
+  <url>
+    <loc>https://planet.emergenz.art/en/failure/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/scheitern/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/failure/"/>
+  </url>
+  <url>
     <loc>https://planet.emergenz.art/overshoot/</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://planet.emergenz.art/overshoot/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://planet.emergenz.art/en/overshoot/"/>
