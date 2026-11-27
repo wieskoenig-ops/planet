@@ -161,7 +161,7 @@ T = {
         'datefmt': '{d}. {m} {y}',
         'footer_sister': 'Ein Ableger von <a href="https://emergenz.art/">emergenz.art</a>',
         'contact': 'Kontakt', 'imprint': 'Impressum', 'privacy_url': 'https://emergenz.art/impressum/#datenschutz',
-        'feed': 'RSS-Feed', 'translated': '',
+        'feed': 'RSS-Feed', 'translated': '', 'newsletter': 'Newsletter',
         'skip': 'Zum Inhalt',
     },
     'en': {
@@ -177,7 +177,7 @@ T = {
         'datefmt': '{d} {m} {y}',
         'footer_sister': 'An offshoot of <a href="https://emergenz.art/">emergenz.art</a>',
         'contact': 'Contact', 'imprint': 'Legal notice', 'privacy_url': 'https://emergenz.art/impressum/#datenschutz',
-        'feed': 'RSS feed', 'translated': 'Translated from the <a href="{de_url}" hreflang="de" lang="de">German original</a>.',
+        'feed': 'RSS feed', 'newsletter': 'Newsletter (in German)', 'translated': 'Translated from the <a href="{de_url}" hreflang="de" lang="de">German original</a>.',
         'skip': 'Skip to content',
     },
 }
@@ -243,6 +243,30 @@ def minutes(text, lang):
     return max(1, round(words / (200 if lang == 'de' else 230)))
 
 
+SUBSTACK = 'https://kipppunkte.substack.com'
+
+
+def newsletter_box(lang, hid='nl'):
+    """Anmeldung zum Newsletter auf Substack, ohne eingebettetes Iframe und ohne Tracking.
+    Die Adresse geht erst beim Absenden an Substack."""
+    if lang != 'de':
+        return ''
+    return f'''
+    <aside class="newsletter wrap" aria-labelledby="{hid}-h">
+      <form action="{SUBSTACK}/api/v1/free?nojs=true" method="post" target="_blank">
+        <h2 id="{hid}-h">Neue Essays per Mail</h2>
+        <p>Etwa ein Essay im Monat, vollständig im Postfach. Der Newsletter heißt <a href="{SUBSTACK}/">Kipppunkte</a>.</p>
+        <input type="hidden" name="source" value="embed">
+        <div class="nl-row">
+          <label class="visually-hidden" for="{hid}-email">E-Mail-Adresse</label>
+          <input type="email" id="{hid}-email" name="email" required autocomplete="email" placeholder="E-Mail-Adresse">
+          <button type="submit">Abonnieren</button>
+        </div>
+        <p class="nl-note">Der Versand läuft über Substack. Mit dem Abonnieren geht deine Adresse an Substack, Inc. in den USA. Abmelden geht jederzeit mit einem Klick. Mehr im <a href="https://emergenz.art/impressum/#datenschutz">Datenschutzhinweis</a>.</p>
+      </form>
+    </aside>'''
+
+
 GOAT = '''<script>window.goatcounter = { path: function (p) { return location.host + p } }</script>
 <script data-goatcounter="https://emergenz.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>'''
 
@@ -303,6 +327,7 @@ def page(lang, *, title, desc, path, alt, body, current=None, og_type='website',
       <p style="margin:0"><span class="brand-small">planet<span class="dot">.</span></span> {t['footer_sister']}</p>
       <ul>
         <li><a href="{feed}">{t['feed']}</a></li>
+        <li><a href="{SUBSTACK}/">{t['newsletter']}</a></li>
         <li><a href="https://emergenz.art/kontakt/">{t['contact']}</a></li>
         <li><a href="https://emergenz.art/impressum/">{t['imprint']}</a></li>
       </ul>
@@ -371,7 +396,7 @@ def build_essay(e, lang):
       <div class="prose">
 {body}
       </div>
-    </article>{further}'''
+    </article>{newsletter_box(lang)}{further}'''
     head = f'\n  <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>'
     return page(lang, title=L['titel'], desc=L.get('desc', L['dek']), path=essay_url(e, lang), alt=alt, body=main,
                 og_type='article', head_extra=head, scripts=motif_scripts(e))
@@ -443,7 +468,7 @@ def build_about(lang):
     main = f'''    <div class="page prose">
       <h1>{a['title']}</h1>
 {a['body']}
-    </div>'''
+    </div>{newsletter_box(lang)}'''
     alt = {l: url(l, ABOUT[l]['slug']) for l in ('de', 'en')}
     return page(lang, title=a['title'], desc=T[lang]['site_desc'], path=url(lang, a['slug']), alt=alt, body=main,
                 current='about')

@@ -107,6 +107,19 @@
 
       </div>
     </article>
+    <aside class="newsletter wrap" aria-labelledby="nl-h">
+      <form action="https://kipppunkte.substack.com/api/v1/free?nojs=true" method="post" target="_blank">
+        <h2 id="nl-h">Neue Essays per Mail</h2>
+        <p>Etwa ein Essay im Monat, vollständig im Postfach. Der Newsletter heißt <a href="https://kipppunkte.substack.com/">Kipppunkte</a>.</p>
+        <input type="hidden" name="source" value="embed">
+        <div class="nl-row">
+          <label class="visually-hidden" for="nl-email">E-Mail-Adresse</label>
+          <input type="email" id="nl-email" name="email" required autocomplete="email" placeholder="E-Mail-Adresse">
+          <button type="submit">Abonnieren</button>
+        </div>
+        <p class="nl-note">Der Versand läuft über Substack. Mit dem Abonnieren geht deine Adresse an Substack, Inc. in den USA. Abmelden geht jederzeit mit einem Klick. Mehr im <a href="https://emergenz.art/impressum/#datenschutz">Datenschutzhinweis</a>.</p>
+      </form>
+    </aside>
     <aside class="further wrap" aria-labelledby="further-h">
       <div class="section-head"><h2 id="further-h">Weiterlesen</h2></div>
       <div class="grid">
@@ -136,6 +149,7 @@
       <p style="margin:0"><span class="brand-small">planet<span class="dot">.</span></span> Ein Ableger von <a href="https://emergenz.art/">emergenz.art</a></p>
       <ul>
         <li><a href="/feed.xml">RSS-Feed</a></li>
+        <li><a href="https://kipppunkte.substack.com/">Newsletter</a></li>
         <li><a href="https://emergenz.art/kontakt/">Kontakt</a></li>
         <li><a href="https://emergenz.art/impressum/">Impressum</a></li>
       </ul>
